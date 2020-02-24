@@ -1,0 +1,12 @@
+{
+  "name": "recette",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch src/style.scss:dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

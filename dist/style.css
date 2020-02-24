@@ -1,0 +1,122 @@
+.main {
+  margin: 0;
+  background-image: url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80);
+  background-size: cover;
+}
+
+input:focus {
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1231&q=80);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 65px;
+  font-family: "Amatic SC", cursive;
+  color: #FF6F61;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Indie Flower", cursive;
+}
+
+.form-container input {
+  padding: 20px;
+  font-size: 1.8rem;
+  border: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  font-family: "Indie Flower", cursive;
+}
+
+.form-container input[type=submit] {
+  margin-top: 2rem;
+  border: 1px solid #FF6F61;
+  transition: all 0.3s;
+}
+
+.form-container input[type=submit]:hover {
+  background: #FF6F61;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-container h1 {
+  text-align: center;
+}
+
+.message {
+  color: red;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
+
+body {
+  font-family: "Indie Flower", cursive;
+}
+
+h2 {
+  font-size: 40px;
+  color: #FF6F61;
+  text-align: center;
+}
+
+.recette {
+  margin-left: 30px;
+  width: 900px;
+  margin-right: 40px;
+  background-color: whitesmoke;
+  padding: 25px;
+  border: #FF6F61;
+  box-shadow: 8px 8px 12px #aaa;
+  color: black;
+}
+
+.img {
+  width: 550px;
+  height: 550px;
+  box-shadow: 8px 8px 12px #aaa;
+}
+
+h3 {
+  color: #F79F79;
+  font-size: 22px;
+}
+
+.ing {
+  color: #39393A;
+  font-size: 18px;
+}
+
+a {
+  background-color: white;
+  padding: 7px;
+  border-radius: 25px;
+  color: #FF6F61;
+  border: #FF6F61;
+  border-width: 2px;
+  border-style: solid;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background-color: white;
+  color: #FF6F61;
+  size: 50px;
+  padding: 7px;
+  border-radius: 25px;
+  font-family: "Indie Flower", cursive;
+}
+
+/*# sourceMappingURL=style.css.map */
